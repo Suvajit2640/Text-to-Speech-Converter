@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    gap: 1.5rem;
+    background: linear-gradient(60deg, rgb(255, 0, 144), rgb(136, 0, 255), rgb(38, 0, 255));
+}
+.container h1{
+    font-size: 3rem;
+}
+.para textarea{
+    width: 33rem;
+    height: 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: rgba(28, 76, 188, 0.537);
+    color: white;
+    outline: none;
+    resize:none;
+    overflow: auto;
+    border: none;
+    
+}
+.both{
+    display: flex;
+    gap: 1rem;
+}
+button{
+    background-color: red;
+    padding: 8px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    color: white;
+    width: 5rem;
+  
+}
+.select{
+    width: 25rem;
+    background-color: rgba(28, 76, 188, 0.537);
+    padding: 0.5rem;
+    border-radius: 15px;
+    
+}
